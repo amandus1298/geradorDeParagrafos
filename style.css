@@ -1,0 +1,148 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background: #f1f1;
+  color: chartreuse;
+  line-height: 1.5;
+  font-size: 1.35rem;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+}
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing: 0.678rem;
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+  font-family: monospace;
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.25rem;
+}
+h4 {
+  font-size: 0.875rem;
+}
+p {
+  margin-bottom: 1.65rem;
+  color: chartreuse;
+}
+@media screen and (min-width: 800px) {
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 1.75rem;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+  body {
+    font: size 1rem;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    line-height: 1;
+  }
+}
+.btn-gerator {
+  text-transform: uppercase;
+  background: cornsilk;
+  color: darkred;
+  padding: 0.375rem 0.75rem;
+  letter-spacing: 1px;
+  display: inline-block;
+  transition: 1.2s;
+  font-size: 0.875rem;
+  border: 2px solid cornsilk;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 23px;
+}
+.btn-gerator:hover {
+  color: rebeccapurple;
+  background: springgreen;
+  border-color: thistle;
+}
+.section {
+  padding: 5rem 0;
+}
+.section-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 40rem;
+  margin-top: 5rem;
+  text-align: center;
+}
+
+@media screen and (min-width: 992px) {
+  .section-center {
+    width: 95vw;
+  }
+}
+main {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+h3 {
+  text-transform: uppercase;
+  color: violet;
+  letter-spacing: 3.5px;
+}
+.lorem-form {
+  text-transform: capitalize;
+  letter-spacing: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+label {
+  font-size: 1.55rem;
+  color: chartreuse;
+  letter-spacing: 5.2px;
+}
+input {
+  padding: 0.25rem 0.5rem;
+  width: 4rem;
+  border-radius: 12px;
+  border: none;
+  margin: 0 0.5rem;
+  font-size: 1.25rem;
+}
+button {
+  background: chartreuse;
+  cursor: pointer;
+}
+.result {
+  margin-bottom: 2rem;
+}
